@@ -1,0 +1,29 @@
+{
+  "name": "epro",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "d3": "^4.13.0",
+    "formsy-material-ui": "^0.6.3",
+    "formsy-react": "^1.1.2",
+    "jquery": "^3.3.1",
+    "material-ui": "^0.20.0",
+    "moment": "^2.20.1",
+    "react": "^16.2.0",
+    "react-background-image-loader": "0.0.5",
+    "react-dom": "^16.2.0",
+    "react-material-ui-form-validator": "^1.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.0",
+    "react-validation": "^3.0.7",
+    "reactjs-localstorage": "^0.0.6",
+    "validator": "^9.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

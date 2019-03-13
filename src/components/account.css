@@ -1,0 +1,11 @@
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.account-title{
+  color: black;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 300%;
+}

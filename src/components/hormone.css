@@ -1,0 +1,86 @@
+#chart{
+  width: 100vw;
+  height: 250px;
+  /*background-color: #f7f7f7;*/
+  margin: 25px auto;
+}
+
+.axisRight text {
+    fill: #52BFAB;
+    font-size: 14px;
+}
+.axisLeft text {
+    fill: #484043;
+    font-size: 14px;
+}
+
+.x-axis{
+  fill: #484043;
+  /*font-size: 12px;*/
+}
+
+.x-axis text {
+  fill: none;
+  font-size: 14px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.bar1 {
+  position: relative;
+  z-index: 0;
+}
+.bar2 {
+  position: relative;
+  z-index: 0;
+}
+.x-axis path {
+  display: none;
+}
+
+#day-tag {
+  fill: #484043;
+}
+
+.tooltip {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  padding: 8px;
+  margin-top: -20px;
+  font: 10px sans-serif;
+  background: yellow;
+  pointer-events: none;
+}
+
+@media screen and (min-width: 500px) {
+  #chart{
+    width: 100vw;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #chart{
+    width: 100vw;
+    height: 400px;
+  }
+
+  .x-axis text {
+    fill: #484043;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  #chart{
+    width: 100vw;
+    height: 525px;
+
+  }
+}
