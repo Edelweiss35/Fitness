@@ -17,7 +17,7 @@ First, navigate to the preferred local directory that to host the demo site.
 Next, access the demo site by cloning the Github repository:
 
 ```bash
-$ git clone https://github.com/mafutomo/epro-fitness.git
+$ git clone https://github.com/Edelweiss35/Fitness.git
 ```
 
 Navigate inside the directory 'Q3_Project_Galvanize' and run the following commands:
