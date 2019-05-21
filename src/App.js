@@ -7,7 +7,21 @@ import Navbar from './components/navbar.js'
 import Userbase from './components/userbase.js'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+} from 'react-router-dom'
 
+class App extends Component {
+
+  constructor(props) {
+    super(props)
+    this.state = {
+      'loggedIn': false,
+      'user': 0
+    }
+  }
 
   async componentDidMount() {
     const logged = await this.getAuth()
